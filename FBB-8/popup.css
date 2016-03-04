@@ -18,6 +18,7 @@ body {
     background-color:rgba(255,255,255,.75);
     width:100%;
     height:100%;
+    overflow-y: hidden;
 }
 
 h1 {
@@ -126,6 +127,33 @@ h1 {
 
 /* crawl */
 
+
+#changelog-panel {
+    position: absolute;
+    bottom: -90%;
+    height: 100%;
+    width: 100%;
+}
+
+#changelog-panel.active{
+    bottom: 0;
+    animation-name: expandChangelog;
+    animation-duration: .25s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+#changelog-panel.inactive{
+    bottom: -90%;
+    height: 100%;
+    width: 100%;
+    animation-name: expandChangelog;
+    animation-duration: .25s;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
 #crawl-launcher {
     border-radius: 4px;
     padding-left: 50px;
@@ -143,35 +171,26 @@ h1 {
 .changelog {
     display: none;
     width: 256px;
-    height: 200px;
+    height: 0px;
     position: relative;
     perspective: 200px;
     overflow-y: hidden;
     font-size:8pt;
     color: yellow;
     background-color:black;
+
+
 }
 
-.show {
+.changelog.active {
     display: block;
-}
-
-#changelog-panel{
-    position: absolute;
-    bottom:0;
-    width: 100%;
-
-}
-
-#changelog-panel.active{
-    width: 100%;
-    background-color:black;
+    height: 100%;
 }
 
 .crawl {
     width:256px;
     height:200px;
-    padding-top: 100px;
+    padding-top: 257px;
     bottom: 0;
     position: absolute;
     transform: rotateX(30deg);
@@ -179,11 +198,12 @@ h1 {
 }
 
 #crawltext.active {
+    width:100%;
     padding-left: 50px;
     padding-right: 50px;
     position:absolute;
     animation-name: crawlframes;
-    animation-duration: 32s;
+    animation-duration: 16s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -203,6 +223,13 @@ h1 {
 }
 
 @keyframes crawlframes {
-    0% { margin-top: 60%; }
-    100% { margin-top: -120%; }
+    0% { margin-top: 0%; }
+    100% { margin-top: -250%; }
+}
+
+
+
+@keyframes expandChangelog {
+    0% { bottom: -90%; background-color: transparent; }
+    100% { bottom: 0%; background-color: black; }
 }
