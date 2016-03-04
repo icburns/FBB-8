@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    font-family:"Righteous", monospace;
+
+}
+
+body {
+    width:256px;
+    height:256px;
+}
+
+.popup {
+    position: relative;
+    background-color:rgba(255,255,255,.5);
+    width:100%;
+    height:100%;
+}
+
+h1 {
+    text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+    color: #f09010;
+}
+
+.summary {
+    color: #888888;
+    perspective: 50px;
+
+}
+
+.background {
+    margin: auto;
+    top: 10%;
+    left:10%;
+    position: absolute;
+    z-index: -1000;
+    width:80%;
+    height:80%;
+}
+
+#outer {
+    background-color:rgba(240,140,16,1);
+    border-radius:50%;
+    top:0px;
+    left:0px;
+    position: absolute;
+    width:100%;
+    height:100%;
+}
+
+#inner {
+    background-color:white;
+    border-radius:50%;
+    width:70%;
+    height:70%;
+    top:15%;
+    left:15%;
+    position: absolute;
+}
+
+#innerer {
+    background-color: white;
+    width:60%;
+    height:60%;
+    top:20%;
+    left:20%;
+    position: absolute;
+    background-image:linear-gradient(45deg, rgba(240,140,16,1) 0%, rgba(240,140,16,1) 8%, white 8%, transparent 40%)
+    ,linear-gradient(135deg, rgba(240,140,16,1) 0%, rgba(240,140,16,1) 8%, white 8%, transparent 40%)
+    ,linear-gradient(225deg, rgba(240,140,16,1) 0%, rgba(240,140,16,1) 8%, white 8%, transparent 40%)
+    ,linear-gradient(315deg, rgba(240,140,16,1) 0%, rgba(240,140,16,1) 8%, white 8%, transparent 40%);
+    z-index:1;
+}
+
+#taper1 {
+    background-color:rgba(240,140,16,1);
+    width:30%;
+    height:30%;
+    left:20%;
+    top:20%;
+    position: absolute;
+    background-image:linear-gradient(30deg, white 0%, white 40%, transparent 40%)
+    ,linear-gradient(60deg, transparent 0%, transparent 60% , white 60%);
+}
+
+#taper2 {
+    background-color:rgba(240,140,16,1);
+    width:30%;
+    height:30%;
+    right:20%;
+    top:20%;
+    position: absolute;
+    background-image:linear-gradient(120deg, white 0%, white 40%, transparent 40%)
+    ,linear-gradient(150deg, transparent 0%, transparent 60% , white 60%);
+}
+
+#taper3 {
+    background-color:rgba(240,140,16,1);
+    width:30%;
+    height:30%;
+    right:20%;
+    bottom:20%;
+    position: absolute;
+    background-image:linear-gradient(210deg, white 0%, white 40%, transparent 40%)
+    ,linear-gradient(240deg, transparent 0%, transparent 60% , white 60%);
+}
+
+#taper4 {
+    background-color:rgba(240,140,16,1);
+    width:30%;
+    height:30%;
+    left:20%;
+    bottom:20%;
+    position: absolute;
+    background-image:linear-gradient(300deg, white 0%, white 40%, transparent 40%)
+    ,linear-gradient(330deg, transparent 0%, transparent 60% , white 60%);
+}
+
+
+/* crawl */
+
+#crawl-launcher {
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+    color: yellow;
+    background-color: black;
+}
+
+.changelog {
+    display: none;
+    width: 256px;
+    height: 200px;
+    position: relative;
+    perspective: 200px;
+    overflow-y: hidden;
+    font-size:8pt;
+    color: yellow;
+    background-color:black;
+}
+
+.crawl {
+    width:256px;
+    height:200px;
+    padding-top: 100px;
+    bottom: 0;
+    position: absolute;
+    transform: rotateX(30deg);
+    overflow-y:hidden;
+}
+
+#crawltext.active {
+    padding-left: 50px;
+    padding-right: 50px;
+    position:absolute;
+    animation-name: crawlframes;
+    animation-duration: 32s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#crawltext>ul {
+    padding: 0;
+}
+
+#crawltext>ul>li {
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+
+#crawltext p {
+    text-align: center;
+}
+
+@keyframes crawlframes {
+    0% { margin-top: 60%; }
+    100% { margin-top: -120%; }
+}
