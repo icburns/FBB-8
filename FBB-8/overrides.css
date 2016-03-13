@@ -7,27 +7,27 @@ i._3j7n._iuz, i._3j7r._iuz {
 
 }
 
-i._3j7l._iuz /*like*/ {
+i._3j7l._iuz, a>i.like /*like*/ {
     background-image : url("chrome-extension://__MSG_@@extension_id__/like.png") !important;
 }
 
-i._3j7o._iuz  /*haha*/ {
-    background-image : url("chrome-extension://__MSG_@@extension_id__/love.png") !important;
+i._3j7o._iuz, a>i.haha  /*haha*/ {
+    background-image : url("chrome-extension://__MSG_@@extension_id__/haha.png") !important;
 }
 
-i._3j7q._iuz  /*anger*/ {
+i._3j7q._iuz, a>i.anger  /*anger*/ {
     background-image : url("chrome-extension://__MSG_@@extension_id__/angry.png") !important;
 }
 
-i._3j7m._iuz /*love*/ {
+i._3j7m._iuz, a>i.love /*love*/ {
     background-image : url("chrome-extension://__MSG_@@extension_id__/love.png") !important;
 }
 
-i._3j7n._iuz  /*wow*/ {
+i._3j7n._iuz, a>i.wow  /*wow*/ {
     background-image : url("chrome-extension://__MSG_@@extension_id__/wow.png") !important;
 }
 
-i._3j7r._iuz  /*sorry*/ {
+i._3j7r._iuz, a>i.sorry  /*sorry*/ {
     background-image : url("chrome-extension://__MSG_@@extension_id__/sad.png") !important;
 }
 
@@ -38,8 +38,6 @@ a>i.haha, a>i.sorry,
 a>i.wow, a>i.anger {
 /*    background-image : url("https://i.imgur.com/oSOUzWC.png") !important;*/
 /* bhdenldoojfdhkmjmhnijgjkgkcjhbki */
-
-    background-image : url("chrome-extension://__MSG_@@extension_id__/bb8.png") !important;
     background-size : 17px,17px !important;
     background-position: 0,0 !important;
 }
