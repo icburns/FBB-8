@@ -1,16 +1,28 @@
-i.like._iuz, i.love._iuz,
-i.haha._iuz, i.sorry._iuz,
-i.wow._iuz, i.anger._iuz {
-    background-image : url("chrome-extension://bhdenldoojfdhkmjmhnijgjkgkcjhbki/bb8.png") !important;
+i._3j7l._iuz, /*like*/
+i._3j7m._iuz, /*love*/
+i._3j7o._iuz,  /*haha*/
+i._3j7n._iuz,  /*wow*/
+i._3j7q._iuz  /*anger*/ {
+    background-image : url("chrome-extension://__MSG_@@extension_id__/like.png") !important;
     background-size : 48px,48px !important;
     background-position: 0,0 !important;
 }
+
+i._3j7r._iuz  /*sorry*/ {
+    background-image : url("chrome-extension://__MSG_@@extension_id__/sad.png") !important;
+    background-size : 48px,48px !important;
+    background-position: 0,0 !important;
+}
+
+
 
 a>i.like, a>i.love,
 a>i.haha, a>i.sorry,
 a>i.wow, a>i.anger {
 /*    background-image : url("https://i.imgur.com/oSOUzWC.png") !important;*/
-    background-image : url("chrome-extension://bhdenldoojfdhkmjmhnijgjkgkcjhbki/bb8.png") !important;
+/* bhdenldoojfdhkmjmhnijgjkgkcjhbki */
+
+    background-image : url("chrome-extension://__MSG_@@extension_id__/bb8.png") !important;
     background-size : 17px,17px !important;
     background-position: 0,0 !important;
 }
