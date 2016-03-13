@@ -23,7 +23,10 @@
     "bb8.png",
     "like.png",
     "sad.png",
-    "wow.png"
+    "wow.png",
+    "angry.png",
+    "haha.png",
+    "love.png"
   ],
 
   "browser_action": {

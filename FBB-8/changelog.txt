@@ -1,7 +1,7 @@
 Replace Facebook reactions with BB-8
 
 v0.1.5
-    Added 'wow' and 'sorry' icons
+    Added individual BB-8 reaction icons
     Fixed large icons
 
 v0.1.4
