@@ -1,5 +1,10 @@
 Replace Facebook reactions with BB-8
 
+v0.1.6
+    Fixed small icons
+    BB-8ify reaction summary popover
+    Edit tooltip text on small icon hover
+
 v0.1.5
     Added individual BB-8 reaction icons
     Fixed large icons

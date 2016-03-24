@@ -7,35 +7,36 @@ i._3j7n._iuz, i._3j7r._iuz {
 
 }
 
-i._3j7l._iuz, a>i.like /*like*/ {
+i._3j7l /*like*/ {
     background-image : url("chrome-extension://__MSG_@@extension_id__/like.png") !important;
 }
 
-i._3j7o._iuz, a>i.haha  /*haha*/ {
+i._3j7o  /*haha*/ {
     background-image : url("chrome-extension://__MSG_@@extension_id__/haha.png") !important;
 }
 
-i._3j7q._iuz, a>i.anger  /*anger*/ {
+i._3j7q  /*anger*/ {
     background-image : url("chrome-extension://__MSG_@@extension_id__/angry.png") !important;
 }
 
-i._3j7m._iuz, a>i.love /*love*/ {
+i._3j7m /*love*/ {
     background-image : url("chrome-extension://__MSG_@@extension_id__/love.png") !important;
 }
 
-i._3j7n._iuz, a>i.wow  /*wow*/ {
+i._3j7n  /*wow*/ {
     background-image : url("chrome-extension://__MSG_@@extension_id__/wow.png") !important;
 }
 
-i._3j7r._iuz, a>i.sorry  /*sorry*/ {
+i._3j7r  /*sorry*/ {
     background-image : url("chrome-extension://__MSG_@@extension_id__/sad.png") !important;
 }
 
 
 
-a>i.like, a>i.love,
-a>i.haha, a>i.sorry,
-a>i.wow, a>i.anger {
+a>i._3j7l, a>i._3j7m,
+a>i._3j7o, a>i._3j7r,
+a>i._3j7n, a>i._3j7q,
+i._2p7a{
 /*    background-image : url("https://i.imgur.com/oSOUzWC.png") !important;*/
 /* bhdenldoojfdhkmjmhnijgjkgkcjhbki */
     background-size : 17px,17px !important;
@@ -43,5 +44,9 @@ a>i.wow, a>i.anger {
 }
 
 .uiContextualLayerParent ._4sm1::before {
+    content: "BB-8 " !important;
+}
+
+.tooltipContent ._1vea::before {
     content: "BB-8 " !important;
 }

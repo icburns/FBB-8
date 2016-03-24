@@ -3,7 +3,7 @@
 
   "name": "FBB-8",
   "description": "This extension replaces Facebook reaction images with BB-8",
-  "version": "0.1.5",
+  "version": "0.1.6",
 
   "content_scripts": [
     {
