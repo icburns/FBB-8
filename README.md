@@ -2,6 +2,9 @@
 
 Replace Facebook reactions with BB-8
 
+v0.1.7
+    - Adjusted crawl speed
+
 v0.1.6
     - Fixed small icons
     - BB-8ify reaction summary popover

@@ -6,7 +6,6 @@ window.onload = function(){
     debugger;
     document.getElementById('crawl-launcher').onclick = toggleChangelogCrawl;
     document.getElementById('changelog-panel').addEventListener("animationend", resetAnimationIterations, false);
-//    document.getElementById('changelog-panel').addEventListener("animationiteration", resetAnimationIterations, false);
 
     function toggleChangelogCrawl(e) {
         var crawlLauncher = document.getElementById('crawl-launcher');
