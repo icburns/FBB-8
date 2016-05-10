@@ -1,10 +1,9 @@
 
-i._3j7l._iuz,i._3j7o._iuz,
-i._3j7q._iuz, i._3j7m._iuz,
-i._3j7n._iuz, i._3j7r._iuz {
+i._3j7l, i._3j7o,
+i._3j7q, i._3j7m,
+i._3j7n, i._3j7r {
     background-size : 48px,48px !important;
     background-position: 0,0 !important;
-
 }
 
 i._3j7l /*like*/ {
@@ -31,12 +30,14 @@ i._3j7r  /*sorry*/ {
     background-image : url("chrome-extension://__MSG_@@extension_id__/sad.png") !important;
 }
 
-
+i._3rya /*thank*/ {
+    background-image : url("chrome-extension://__MSG_@@extension_id__/thank.png") !important;
+}
 
 a i._3j7l, a i._3j7m,
 a i._3j7o, a i._3j7r,
 a i._3j7n, a i._3j7q,
-i._2p7a{
+a i._3rya, i._2p7a{
 /*    background-image : url("https://i.imgur.com/oSOUzWC.png") !important;*/
 /* bhdenldoojfdhkmjmhnijgjkgkcjhbki */
     background-size : 17px,17px !important;
