@@ -2,12 +2,15 @@
 
 Replace Facebook reactions with BB-8
 
+v0.1.10
+    - Added 'Pride' icon
+
 v0.1.9
-    Added 'Thankful' icon
-    Fixed large icons
+    - Added 'Thankful' icon
+    - Fixed large icons
 
 v0.1.8
-    Fixed small icons
+    - Fixed small icons
 
 v0.1.7
     - Adjusted crawl speed
