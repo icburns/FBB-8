@@ -1,4 +1,10 @@
-Replace Facebook reactions with BB-8
+Replace reactions with BB-8
+
+v0.1.11
+	Remove references to appease overzealous imperial enforcement agents
+
+v0.1.10
+	Added 'Pride' icon
 
 v0.1.9
     Added 'Thankful' icon
@@ -33,4 +39,4 @@ v0.1.2
     Add 'BB-8 ' before text in reaction tooltip
 
 v0.1.1
-    Replace each facebook reaction with BB-8 thumbs up icon
+    Replace each reaction with BB-8 thumbs up icon

@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "FBB-8",
-  "description": "This extension replaces Facebook reaction images with BB-8",
-  "version": "0.1.10",
+  "name": "F*BB-8",
+  "description": "This extension replaces reaction images with BB-8",
+  "version": "0.1.11",
 
   "content_scripts": [
     {
@@ -34,7 +34,7 @@
   "browser_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html",
-    "default_title": "FBB-8"
+    "default_title": "F*BB-8"
   },
   "permissions": [
     "activeTab",
